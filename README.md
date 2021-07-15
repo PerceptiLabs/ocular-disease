@@ -16,16 +16,13 @@ This repo contains the following structure:
 
 - **data/**: contains the CSV files and directory with images.
   - **dataset.csv**: CSV file with all diseases.
-  - **dastaset_bin.csv**: CSV file with normal cases versus all diseases.
-  - **dataset_cat.csv**: CSV file with a small subset of normal versus cataract disease.
-  - **full_df.csv**: CSV file with the full original dataset including multiple descriptive columns.
   - **preprocessed_images/**: directory with images preprocessed to 512x512.
 
 <p align="center">
   <img src="./sample.png">
 </p>
 
-The following shows a partial example of the data stored in **dataset_cat.csv** that is used as the main example.
+The following shows a partial example of the data stored in **dataset.csv** that is used as the main example.
 
 | **labels** | **filename** |
 |------------|--------------|
