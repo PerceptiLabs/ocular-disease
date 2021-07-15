@@ -14,26 +14,27 @@ The data can be used to build and train an ML model that can detect ocular disea
 
 This repo contains the following structure:
 
-- **data/**: contains the csv files and folder with images
-  - **dataset.csv**: CSV file with all diseases
-  - **dastaset_bin.csv**: CSV file with normal cases vs all diseases
-  - **dataset_cat.csv**: CSV file with small subset of normal vs catarate disease
-  - **full_df.csv**: CSV file with full original dataset with multiple descriptive columns
-  - **preprocessed_images/**: folder with preprocessed images with 512x512 image size
+- **data/**: contains the CSV files and directory with images.
+  - **dataset.csv**: CSV file with all diseases.
+  - **dastaset_bin.csv**: CSV file with normal cases versus all diseases.
+  - **dataset_cat.csv**: CSV file with a small subset of normal versus cataract disease.
+  - **full_df.csv**: CSV file with the full original dataset including multiple descriptive columns.
+  - **preprocessed_images/**: directory with images preprocessed to 512x512.
 
 <p align="center">
   <img src="./sample.png">
 </p>
 
-The following shows a partial example of the data stored in the dataset_cat.csv that is used as main example.
+The following shows a partial example of the data stored in **dataset_cat.csv** that is used as the main example.
 
 | **labels** | **filename** |
 |------------|--------------|
 | C          | preprocessed_images/24_right.jpg |
 | C          | preprocessed_images/112_right.jpg |
-| C          | preprocessed_images/188_right.jpg |
-| C          | preprocessed_images/218_right.jpg |
+| N          | preprocessed_images/0_right.jpg |
+| N          | preprocessed_images/1_right.jpg |
 
+The label "C" indicates that the image contains a cataract and the label "N" indicates that the image does not contain a cataract.
 
 # Community
 
